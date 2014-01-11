@@ -58,7 +58,7 @@ for route in dates:
     
     cal = Calendar()
     cal.add("prodid", "python")
-    cal.add("version", "1.0")
+    cal.add("version", "2.0")
     cal["X-WR-CALNAME"] = "Gelber Sack Nuernberg Route " + str(routeNum)
     cal["X-WR-CALDESC"] = "Abfuhrplan fuer den gelben Sack in Nuernberg von 2014 bis 2016 fuer die Route " + str(routeNum)
     
